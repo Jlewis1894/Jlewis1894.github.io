@@ -1,0 +1,88 @@
+h1{
+    font-family: Impact, Haettenschweiler, sans-serif;
+    text-align: center;
+    font-weight: normal;
+}
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
+body{
+    background-color:burlywood
+}
+
+#flex{
+    display: flex;
+    flex-direction:row
+}
+
+@media only screen and (max-width: 480px){
+    h1{
+        width: 270px                                                          
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px),
+(orientation:portrait) {
+    .c:\Users\joshu\Downloads\shutterstock_778613239 (1).jpg .thumbnail {
+        width:95%
+    }
+}
+
+@media only screen and (min-resolution: 150dpi) and (max-width: 480px){
+    .Introduction{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-resolution: 150dpi) and (max-width: 480px){
+    .Diet{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-resolution: 150dpi) and (max-width: 480px){
+    .Habitat{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-resolution: 150dpi) and (max-width: 480px){
+    .Invasion-in-Us{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-resolution: 150dpi) and (max-width: 480px){
+    .Impact{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-resolution: 150dpi) and (max-width: 480px){
+    .Management{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-resolution: 150dpi) and (max-width: 480px){
+    .Lizard-size{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-resolution: 150dpi) and (max-width: 480px){
+    .Captive-diet{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-resolution: 150dpi) and (max-width: 480px){
+    {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<!--
+Contact page for more information about tegu lizards.
+Author:Joshua Lewis
+-->  
+<meta charset="utf-8"
+meta name="keywords"
+   content="Contact, tegus, tegu lizards, lizards, Florida"/>
+   <link rel="stylesheet" href="style.css">      <!--Link to CSS file-->
+   
+   <title>Contact Us</title>
+</head>   
+
+<body>
+    <nav>
+    <a href="Tegu Site.html"><h2>About Black & White Tegus</h2></a>   
+    <a href="Tegu Invasive Species Page.html"><h2>Tegus as an Invasive Species</h2></a>   <!--Navigation list-->
+    <a href="Tegu care Page.html"><h2>Caring for Tegus</h2></a>  
+    <a href="Tegu Contact Page.html"><h2>Contact Us</h2></a> 
+    </nav>
+<h1>Contact Us</h1>  
+<h2>Do You Have Questions About Tegus?</h2>  
+<h2>Email Us Here</h2>
+<!--Email address and message submission form-->
+<fieldset id="contInfo">
+    <legend><h3>Contact Information</h3></legend>
+    <h3>First and Last Name*</h3>                             <!--Data validation, required fields. Name & email required-->
+    <input name="persName" id="name" type="text" required>
+    <h3>E-mail*</h3>                                           
+    <input name="persEmail" id="mail" type="email" required/>
+    <label for="messBox"><h3>Message</h3></label>         
+    <textarea name="persMessage" id="messBox"></textarea> <!--Box for message text.-->
+</fieldset>
+<!--Submission button. Submit and reset buttons.-->
+<div id="buttons">
+    <input type="submit" value="Send Message"/>
+    <input type="reset" value="Cancel"/>
+</div>
+<!--Questionnare section (radio button options)-->
+<div class="formRow">
+    <label><h2>Have you ever owned a tegu of any species?</h2></label>
+    <fieldset class="optGroup">
+    <label for="fYes"><h2>Yes</h2></label>    <!--First radio button (Yes)-->
+    <input name="sOwned" id="Yes" value="Yes"
+    type="radio"/>  
+    
+    <div class="formRow">
+        <label for="species"><h2>Species</h2></label>    <!--Selection list-->
+        <select name="specType" id="species">
+            <option value="species1">Black and White Tegu</option>    
+            <option value="species2">Red Tegu</option> 
+            <option value="species3">Gold Tegu</option>
+        </select>
+    </div> <!--Second radio button (No)-->
+    <label for="fNo"><h2>No</h2></label> 
+    <input name="sFriend" id="fNo" value="no"
+    type="radio"/>
+    </fieldset>
+</div>
+</body>
+</html> <!--closing HTML tag-->
